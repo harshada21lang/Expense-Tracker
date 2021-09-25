@@ -87,8 +87,7 @@ input[type=number] {
     width: 310px;
     margin: 35px auto 0;
     line-height: 1.7em;
-    text-align: center;
-    
+    text-align: center;   
 }
 
 .budget-header .account .income, .chart, .outcome{
@@ -235,12 +234,16 @@ input[type=number] {
     position: relative;
 }
 
+#input{
+    position: fixed;
+}
+
 .budget-dashboard #expense .input{
     position: absolute;
     display: block;
     width: 360px;
     bottom: 0;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #ccc;  
 }
 
 .budget-dashboard #expense .input *{

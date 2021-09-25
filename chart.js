@@ -3,8 +3,8 @@ const chart = document.querySelector(".chart");
 
 // CREATE CANVAS ELEMMENT
 const canvas = document.createElement("canvas");
-canvas.width = 50;
-canvas.height = 50;
+canvas.width = 66;
+canvas.height = 66;
 
 // APPEND CANVAS TO CHART ELEMENT
 chart.appendChild(canvas);
@@ -16,7 +16,7 @@ const ctx = canvas.getContext("2d");
 ctx.lineWidth = 8;
 
 // CIRCLE RADIUS
-const R = 20;
+const R = 28;
 
 function drawCircle(color, ratio, anticlockwise){
 
