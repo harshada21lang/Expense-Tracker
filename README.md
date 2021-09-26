@@ -6,6 +6,7 @@
 * [Technical Information](#Technical-Information)
 ## About
 A simple expense tracker app to keep track of your daily expenses.
+
 It is a single page application(SPA) to manage finances. The main objective of this application is to serve as a learning tool and to get into the JavaScript programming language, learn to manage the DOM and its attributes.
 ## Features
 * Budget app shows, the balance, the income and the outcome. 
