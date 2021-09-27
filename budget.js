@@ -89,7 +89,6 @@ expenseList.addEventListener("click", deleteOrEdit);
 allList.addEventListener("click", deleteOrEdit);
 
 // HELPERS
-
 function deleteOrEdit(event){
     const targetBtn = event.target;
 
@@ -107,6 +106,7 @@ function deleteEntry(entry){
 
     updateUI();
 }
+
 
 function editEntry(entry){
     console.log(entry)
