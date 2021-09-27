@@ -26,3 +26,7 @@ To run the site on your local machine
 3. Open .html file in your browser.
 4. Alternatively you can click on the following [Site Link](https://harshada21lang.github.io/Expense-Tracker/) to view.
 ## Screenshots
+![1](https://user-images.githubusercontent.com/71956809/134920686-a15b10b6-8cf8-4856-b9b6-6880cbb400aa.png)
+![2](https://user-images.githubusercontent.com/71956809/134920728-c9e9a55e-d717-4b8c-994d-79c2e5f5e558.png)
+![3](https://user-images.githubusercontent.com/71956809/134920770-de4b7446-5e40-420d-ba43-a1ad921a52a5.png)
+![4](https://user-images.githubusercontent.com/71956809/134920802-fb46a75a-159e-4c85-8cfb-25262363608a.png)
