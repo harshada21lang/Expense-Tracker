@@ -27,6 +27,8 @@ const incomeAmount = document.getElementById("income-amount-input");
 let ENTRY_LIST;
 let balance = 0, income = 0, outcome = 0;
 const DELETE = "delete", EDIT = "edit";
+var isEdit = false;
+var editingElt = null;
 
 // LOOK IF THERE IS SAVED DATA IN LOCALSTORAGE
 ENTRY_LIST = JSON.parse(localStorage.getItem("entry_list")) || [];
@@ -108,10 +110,13 @@ function deleteEntry(entry){
 }
 
 
+
 function editEntry(entry){
+
     console.log(entry)
     let ENTRY = ENTRY_LIST[entry.id];
-
+    isEdit = true;
+    editingElt = ENTRY;
     if(ENTRY.type == "income"){
         incomeAmount.value = ENTRY.amount;
         incomeTitle.value = ENTRY.title;
@@ -120,7 +125,7 @@ function editEntry(entry){
         expenseTitle.value = ENTRY.title;
     }
 
-    deleteEntry(entry);
+    //deleteEntry(entry);
 }
 
 function updateUI(){

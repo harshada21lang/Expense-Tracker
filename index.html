@@ -54,7 +54,7 @@
                 <ul class="list"></ul>
                 <div class="input" id="input">
                     <input type="text" id="expense-title-input" name="title" placeholder="Title">
-                    <input type="number" id="expense-amount-input" name="amount" placeholder ="₹ 0">
+                    <input type="number" id="expense-amount-input" name="amount" placeholder ="₹ 0" min="0" oninput="this.value=Math.abs(this.value)">
                     <div class="add-expense"><img src="icon/minus.png" alt=""></div>
                 </div>
             </div>
@@ -62,7 +62,7 @@
                 <ul class="list"></ul>
                 <div class="input" id="input">
                     <input type="text" id="income-title-input" name="title" placeholder="Title">
-                    <input type="number" id="income-amount-input" name="amount" placeholder="₹ 0">
+                    <input type="number" id="income-amount-input" name="amount" placeholder="₹ 0" min="0" oninput="this.value=Math.abs(this.value)">
                     <div class="add-income"><img src="icon/plus.png" alt=""></div>
                 </div>
             </div>
